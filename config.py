@@ -25,7 +25,7 @@ ADS_MODE = getenv("ADS_MODE", None)
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6027918860))
+OWNER_ID = int(getenv("OWNER_ID", 7840042336)
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/MOON-CODES/leharmusic",
+    "https://github.com/Vampire674/SITARAXMUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/world_friend_chatting_zone")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/world_friend_chatting_zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KILLER_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KILLER_UPDATE")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
